@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "${workspaceFolder}/src/minisnap/include/**",
+                "${workspaceFolder}/devel/include",
+                "${workspaceFolder}/src/a_star/include",
+                "${workspaceFolder}/src/rviz-3d-nav-goal-tool/include",
+                "/opt/ros/noetic/include",
+                "${workspaceFolder}/src/Utils/uav_utils/include",
+                "${workspaceFolder}/src/px4ctrl/include",
+                "${workspaceFolder}/src/Utils/quadrotor_msgs/include",
+                "/usr/include/x86_64-linux-gnu/qt5/QtCore",
+                "/usr/include/x86_64-linux-gnu/qt5",
+                "/usr/include/x86_64-linux-gnu/qt5/QtGui",
+                "/usr/include/OGRE",
+                "/usr/include/pcl-1.10",
+                "${workspaceFolder}/src/minisnap/include"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}

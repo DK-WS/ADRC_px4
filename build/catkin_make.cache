@@ -1,0 +1,2 @@
+Utils/cmake_utils:Utils/multi_map_server:Utils/odom_visualization:Utils/pose_utils:Utils/quadrotor_msgs:Utils/rviz_plugins:Utils/uav_utils:Utils/waypoint_generator:a_star:minisnap:px4ctrl:rviz-3d-nav-goal-tool
+-DCATKIN_DEVEL_PREFIX=/home/ws/minisnap-1.0/devel -DCMAKE_INSTALL_PREFIX=/home/ws/minisnap-1.0/install -G Unix Makefiles

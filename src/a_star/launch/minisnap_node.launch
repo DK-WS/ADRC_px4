@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="a_star" name="minisnap_node" type="minisnap_node" output="screen"/>
+  	<!--<rosparam file="$(find minisnap)/poses/config.yaml"/>-->
+  <!-- <node name="rviz" pkg="rviz" type="rviz" output="screen"/> -->
+  <!--<node pkg="minisnap" name="control_node" type="control_node" output="screen"/>-->
+</launch>

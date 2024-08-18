@@ -1,0 +1,8 @@
+prefix=/home/ws/minisnap-1.0/install
+
+Name: minisnap
+Description: Description of minisnap
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ws/minisnap-1.0/src/Utils/pose_utils/include/pose_utils.h
+iostream
+-
+armadillo
+/home/ws/minisnap-1.0/src/Utils/pose_utils/include/armadillo
+
+/home/ws/minisnap-1.0/src/Utils/pose_utils/src/pose_utils.cpp
+pose_utils.h
+/home/ws/minisnap-1.0/src/Utils/pose_utils/src/pose_utils.h
+

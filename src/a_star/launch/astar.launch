@@ -1,0 +1,8 @@
+<launch>
+  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find a_star)/config/config.rviz" required="true"/>
+  <node pkg="a_star" name="astar_node" type="astar_node" output="screen"/>
+  <!--<node pkg="a_star" name="minisnap_node" type="minisnap_node" output="screen"/-->
+  	<!--<rosparam file="$(find minisnap)/poses/config.yaml"/>-->
+  <!-- <node name="rviz" pkg="rviz" type="rviz" output="screen"/> -->
+  <!--<node pkg="minisnap" name="control_node" type="control_node" output="screen"/>-->
+</launch>

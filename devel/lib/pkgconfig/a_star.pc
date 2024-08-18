@@ -1,0 +1,8 @@
+prefix=/home/ws/minisnap-1.0/devel
+
+Name: a_star
+Description: Description of a_star
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
